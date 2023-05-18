@@ -75,7 +75,7 @@ const Home: React.FC<indexProps> = ({}) => {
   return (
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
-        {/* <PreLoader /> */}
+        <PreLoader />
         {/* <Navigation
           isOpen={isToggleOpen}
           toggleOpen={() => toggleBodyScroll(isToggleOpen)}
