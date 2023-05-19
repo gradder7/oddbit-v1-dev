@@ -27,9 +27,6 @@ export default function HeroSection() {
           </Link>
         </div>
       </header>
-      <div className="header__footer">
-        <hr style={{ width: "100%" }} />
-      </div>
     </div>
   );
 }
