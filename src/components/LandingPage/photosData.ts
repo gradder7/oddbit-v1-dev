@@ -1,3 +1,4 @@
+// photos src for the technologies logo used in TechShowcaseSection
 import javascriptimg from "../../../public/webp/TechShowCase/javascript.svg";
 import htmlimg from "../../../public/webp/TechShowCase/html.svg";
 import firebaseimg from "../../../public/webp/TechShowCase/firebase.svg";
