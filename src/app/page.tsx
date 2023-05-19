@@ -6,6 +6,7 @@ import HeroSection from "../components/LandingPage/HeroSection";
 import CompanyDesc from "../components/LandingPage/CompanyDesc";
 import TechShowcaseSection from "../components/LandingPage/TechShowcaseSection";
 import SocialLinks from "../components/LandingPage/SocialLinksContact";
+import Footer from "@/components/LandingPage/Footer";
 
 interface indexProps {}
 
@@ -69,6 +70,7 @@ const Home: React.FC<indexProps> = ({}) => {
           <TechShowcaseSection />
           <SocialLinks />
         </main>
+        <Footer />
       </div>
     </>
   );
