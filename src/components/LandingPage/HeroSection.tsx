@@ -6,7 +6,6 @@ export default function HeroSection() {
       <header className="header">
         <div className="header__hero">
           <div className="header__hero--heading">
-            {/* From idea to reality: Creating captivating products. */}
             <span>From idea to</span> <br />
             <span>reality: Creating </span>
             <br />
