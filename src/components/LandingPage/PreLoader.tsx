@@ -32,7 +32,7 @@ export default function PreLoader() {
             animate={{ x: 0, opacity: 1, transition: { ...transition } }}
             className="preloader__right"
           >
-            <p className="preloader__text">Welcom to ODDBIT</p>
+            <p className="preloader__text">Welcome to ODDBIT</p>
           </motion.div>
         </div>
       </motion.div>
