@@ -57,6 +57,10 @@ const Home: React.FC<indexProps> = ({}) => {
         });
       }
     );
+    return () => {
+      // Clean up on component unmount
+      lscroll.destroy();
+    };
   }, []);
 
   return (

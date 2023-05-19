@@ -1,13 +1,14 @@
 import ProjectCard from "./ProjectCard";
-// images for projects 
+// images for projects
 import kite from "../../../public/webp/kite.png";
+import kitechatMob from "../../../public/webp/kitechatMob.jpg";
 import kitehover from "../../../public/webp/KiteHover.png";
 import fate from "../../../public/webp/fate.png";
 import fateHover from "../../../public/webp/Fatehover.png";
 import aiMagic2 from "../../../public/webp/aimagicNew.png";
 import aiMagicHover from "../../../public/webp/Aimagichover.png";
-import imageProject4_1 from "../../../public/webp/pixelchef-2.webp";
-import fidgetgame from "../../../public/webp/Fidget.png";
+import fidgetgame from "../../../public/webp/fidgetTop.png";
+import fidgetgameHover from "../../../public/webp/Fidget.png";
 
 export default function ProjectsSection() {
   return (
@@ -40,7 +41,7 @@ export default function ProjectsSection() {
       <ProjectCard
         title="Kite Chat"
         techStack="NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION"
-        imageSrc1={kite}
+        imageSrc1={kitechatMob}
         imageSrc2={kitehover}
         websiteUrl="https://kite.chat/"
         description="Kite Chat is a marketing & customer support platform built to help grow your business using new features of Official WhatsApp Business API.
@@ -50,8 +51,8 @@ export default function ProjectsSection() {
       <ProjectCard
         title="Fidgetgames"
         techStack="HTML, SCSS, JAVASCRIPT, GSAP"
-        imageSrc1={imageProject4_1}
-        imageSrc2={fidgetgame}
+        imageSrc1={fidgetgame}
+        imageSrc2={fidgetgameHover}
         websiteUrl="/"
         description="Fidget Games: Your daily dose of gaming excitement! Discover a new game every day, keeping boredom at bay. From thrilling adventures to mind-bending puzzles, get ready to embark on a gaming journey like no other. Let the fun begin!"
       />
