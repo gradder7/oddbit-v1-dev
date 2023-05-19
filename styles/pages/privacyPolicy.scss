@@ -1,0 +1,46 @@
+.container-Policy {
+    max-width:auto;
+    margin: 0 auto;
+    padding: 8rem;
+    color: aliceblue;
+
+    @media (max-width: 768px) {
+        padding: 30px;
+        margin-top: 30px;
+        
+    }
+}
+
+.title-Policy {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.content-Policy {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: #d0cece;
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+
+    
+
+
+    h2 {
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+}

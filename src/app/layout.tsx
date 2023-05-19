@@ -2,6 +2,8 @@
 import "../../styles/global.scss";
 import { Inter } from "next/font/google";
 import { AnimatePresence } from "framer-motion";
+import React from "react";
+import Footer from "@/components/LandingPage/Footer";
 const inter = Inter({ subsets: ["latin"] });
 function handleExitComplete() {
   if (typeof window !== "undefined") {
@@ -24,6 +26,7 @@ export default function RootLayout({
           <AnimatePresence onExitComplete={handleExitComplete} mode="wait">
             {children}
           </AnimatePresence>
+          <Footer />
         </div>
       </body>
     </html>

@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import logo from "../../../public/webp/oddbitLogo.png";
 import Image from "next/image";

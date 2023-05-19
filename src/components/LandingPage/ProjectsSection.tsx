@@ -1,5 +1,5 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
+// images for projects 
 import kite from "../../../public/webp/kite.png";
 import kitehover from "../../../public/webp/KiteHover.png";
 import fate from "../../../public/webp/fate.png";
