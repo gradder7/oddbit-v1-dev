@@ -22,16 +22,12 @@ export default function TechShowcaseSection() {
         <div className="section-reviews__bottom-wrapper review-card__anim2">
           {photosData.map((photo, index) => (
             <div className="review-card" key={index}>
-              <div className="review-card__top">
-                <div>
-                  <Image
-                    src={photo.src}
-                    alt="twitter icon"
-                    width={120}
-                    height={80}
-                  />
-                </div>
-              </div>
+              <Image
+                src={photo.src}
+                alt="twitter icon"
+                width={120}
+                height={80}
+              />
             </div>
           ))}
         </div>

@@ -418,8 +418,8 @@
   }
 }
 
-// section=reviews
 
+// =========
 .section-reviews__bg {
   background-color: #050810;
 }
@@ -430,6 +430,7 @@
   grid-template-columns: 1fr repeat(12, minmax(min-content, 10rem)) 1fr;
   padding: 8rem 0;
   transition: all 0.3s ease-in-out;
+
   &__top {
     grid-column: 2/14;
     padding: 0 6rem;
@@ -437,12 +438,9 @@
     @media only screen and (max-width: 57em) {
       grid-column: 1/15;
     }
+
     @media only screen and (max-width: 45em) {
       padding: 0 1.5rem;
-    }
-
-    p {
-      margin-top: 1.5rem;
     }
   }
 
@@ -451,68 +449,36 @@
     overflow-x: hidden;
     margin-top: 8rem;
     margin-bottom: 4rem;
+
     &-wrapper {
-      @include centerContent;
-      width: max-content;
+      display: flex;
+
       .review-card {
         background: #171e2f;
         border-radius: 2rem;
-        padding: 2rem;
+        padding: 4rem;
         margin: 1.5rem;
-        &__top {
-          @include centerContent;
-          margin-bottom: 2rem;
-        }
-
-
-        &__p {
-          font-size: 0.8rem;
-          text-transform: uppercase;
-          line-height: 81.4%;
-          letter-spacing: 0.25em;
-          color: #585e6e;
-        }
-
-        &__h3 {
-          font-size: 1.9rem;
-          line-height: 81.4%;
-          letter-spacing: -0.01em;
-          color: #585e6e;
-          margin-top: 1.5rem;
-          font-weight: 100;
-        }
-
-        &__h2 {
-          font-size: 2rem;
-          line-height: 130.4%;
-          color: var(--color-white);
-          font-weight: 100;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
   }
 }
 
 .review-card__anim1 {
-  animation: reviewCardAnim1 25s ease-in-out infinite alternate;
-
-  &:hover {
-    animation-play-state: paused;
-  }
+  animation: reviewCardAnim1 25s ease-in-out infinite  ;
 }
 
 .review-card__anim2 {
-  animation: reviewCardAnim2 25s ease-in-out infinite alternate;
-  &:hover {
-    animation-play-state: paused;
-  }
+  animation: reviewCardAnim2 25s ease-in-out infinite ;
 }
 
 // section-socials
 .section-socials {
   grid-column: 2/14;
   padding: 0 6rem;
-  // margin-top: 12rem;
+  margin-top: 12rem;
 
   @media only screen and (max-width: 57em) {
     grid-column: 1/15;

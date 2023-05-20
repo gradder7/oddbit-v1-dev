@@ -71,7 +71,7 @@ const Home: React.FC<indexProps> = ({}) => {
         <main className="container">
           <CompanyDesc />
           <ProjectsSection />
-          {/* <TechShowcaseSection /> */}
+          <TechShowcaseSection />
           <SocialLinks />
         </main>
         <Footer />
